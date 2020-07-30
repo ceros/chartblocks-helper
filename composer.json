@@ -1,0 +1,24 @@
+{
+    "name": "ceros/chartblocks-herlper",
+    "description": "gets api calls from clientside and updates data sets through chartblocks rest sdk",
+    "authors": [
+        {
+            "name": "Anel Danza",
+            "email": "anel.danza@ceros.com"
+        }
+
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "chartblocks/php-rest-sdk": "~1.1.",
+        "symfony/event-dispatcher" : "~2.7",
+        "firebase/php-jwt": "^5.2"
+    },
+
+    "autoload": {
+      "files": []
+    }
+
+
+}
